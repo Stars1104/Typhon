@@ -17,7 +17,7 @@ const Hero = () => {
   }
 
   const Buy_Token = () => {
-
+    window.location.href = "https://pump.fun/coin/4MzQPrNDpuGZjd4VeNimKfvFj4qUfmSySAyN9frxvKTy";
   }
 
   return (
@@ -89,18 +89,18 @@ const Hero = () => {
 
             <div className="mt-12 flex flex-wrap justify-center lg:justify-start gap-8">
               <motion.div variants={fadeIn("right", "tween", 0.3, 1)}>
-                <Link href="">
+                <Link href="https://x.com/typhonlabs" target='_blank'>
                   <Image width={40} height={40} src="/twitter.png" alt="" />
                 </Link>
               </motion.div>
               <motion.div variants={fadeIn("up", "tween", 0.3, 1)}>
-                <Link href="">
+                <Link href="https://discord.gg/A8UauYAm" target='_blank'>
                   <Image width={40} height={40} src="/discord.png" alt="" />
                 </Link>
               </motion.div>
               <motion.div variants={fadeIn("left", "tween", 0.3, 1)}>
-                <Link href="">
-                  <Image width={40} height={40} src="/telegram.png" alt="" />
+                <Link href="https://github.com/laurence57l" target='_blank'>
+                  <Image width={40} height={40} src="/github.png" alt="" />
                 </Link>
               </motion.div>
             </div>

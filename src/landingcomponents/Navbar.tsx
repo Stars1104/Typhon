@@ -78,7 +78,7 @@ const Navbar = () => {
   ]
 
   const Buy_Token = () => {
-
+    window.location.href = "https://pump.fun/coin/4MzQPrNDpuGZjd4VeNimKfvFj4qUfmSySAyN9frxvKTy";
   }
 
   return (
