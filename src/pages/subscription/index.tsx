@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { useConnection, useWallet } from '@solana/wallet-adapter-react';
 import { LAMPORTS_PER_SOL, PublicKey, SystemProgram, Transaction } from '@solana/web3.js';
 import { NEXT_PUBLIC_CREDIT_PURCHASE_WALLET } from '@/config';
-import { Button } from '@/components/ui/button';
 
 interface SubscriptionPackage {
   name: string;
